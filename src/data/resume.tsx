@@ -89,6 +89,7 @@ export const DATA = {
       start: "Dec 2020",
       end: "May 2024",
       grade: "CGPA: 8.39 / 10",
+      tags: []
     },
     {
       school: "Kendriya Vidyalaya Gopalpur Military Station",
@@ -99,6 +100,7 @@ export const DATA = {
       start: "2017",
       end: "2019",
       grade: "Percentage: 89.8%",
+      tags: []
     },
   ],
   projects: [

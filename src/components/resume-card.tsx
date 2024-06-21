@@ -14,7 +14,7 @@ interface ResumeCardProps {
   period: string;
   description?: string;
   grade?: string;
-  tags: readonly string[];
+  tags?: readonly string[];
 }
 
 export const ResumeCard = ({
@@ -27,7 +27,7 @@ export const ResumeCard = ({
   period,
   description,
   grade,
-  tags
+  tags = []
 }: ResumeCardProps) => {
   return (
     <Link href={href || "#"} className="block cursor-pointer">
