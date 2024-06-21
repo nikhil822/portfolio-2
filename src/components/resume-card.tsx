@@ -13,7 +13,7 @@ interface ResumeCardProps {
   badges?: readonly string[];
   period: string;
   description?: string;
-  grade?: string
+  grade?: string;
   tags: readonly string[];
 }
 
