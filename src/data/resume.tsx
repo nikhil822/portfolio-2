@@ -65,15 +65,12 @@ export const DATA = {
         "https://www.kfintech.com/wp-content/uploads/2023/11/Group-1000002745.png",
       start: "June 2024",
       end: "Present",
-      description: `
-• Created a client-side file upload feature that allows direct uploads of large files (approx. 1GB) to an AWS S3 bucket, bypassing the server and reducing overhead.
-
-• Built a feature leveraging Athena to process large datasets (4-10 million rows), dynamically generating queries and providing downloadable zipped CSV reports, with seamless integration for AWS S3 uploads.
-
-• Designed data chunking logic, converting results into PDFs with signed URLs, optimizing both backend processing and frontend delivery for large-scale data handling and downloads.
-
-• Implemented image pre-fetching, improving load time by 30% and enhancing user experience significantly.
-`,
+      description: `<ul style="list-style-type: disc; padding-left: 1.5rem; margin: 0.5rem 0;">
+  <li style="margin-bottom: 0.5rem;">Created a client-side file upload feature that allows direct uploads of large files (approx. 1GB) to an AWS S3 bucket, bypassing the server and reducing overhead.</li>
+  <li style="margin-bottom: 0.5rem;">Built a feature leveraging Athena to process large datasets (4-10 million rows), dynamically generating queries and providing downloadable zipped CSV reports, with seamless integration for AWS S3 uploads.</li>
+  <li style="margin-bottom: 0.5rem;">Designed data chunking logic, converting results into PDFs with signed URLs, optimizing both backend processing and frontend delivery for large-scale data handling and downloads.</li>
+  <li style="margin-bottom: 0.5rem;">Implemented image pre-fetching, improving load time by 30% and enhancing user experience significantly.</li>
+</ul>`,
       technologies: ["React.js, MUI, Node.js, Express.js, PostgreSQL, AWS"],
     },
     {
@@ -86,7 +83,11 @@ export const DATA = {
         "https://www.kfintech.com/wp-content/uploads/2023/11/Group-1000002745.png",
       start: "Dec 2023",
       end: "June 2024",
-      description: `Designed a project’s front end using React.js and MUI from scratch up, integrating FusionCharts to present a range of datasets with efficiency. Implemented data persistence for seamless retention during page navigation, enhancing user experience.  Developed a query to efficiently retrieve and convert data from an AWS S3 bucket into a compressed zip file. `,
+      description: `<ul style="list-style-type: disc; padding-left: 1.5rem; margin: 0.5rem 0;">
+  <li style="margin-bottom: 0.5rem;">Designed a project's front end using React.js and MUI from scratch, integrating FusionCharts to present a range of datasets with efficiency.</li>
+  <li style="margin-bottom: 0.5rem;">Implemented data persistence for seamless retention during page navigation, enhancing user experience.</li>
+  <li style="margin-bottom: 0.5rem;">Developed a query to efficiently retrieve and convert data from an AWS S3 bucket into a compressed zip file.</li>
+</ul>`,
       technologies: ["React.js, MUI, Node.js, Express.js, PostgreSQL, AWS"],
     },
   ],

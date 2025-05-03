@@ -69,7 +69,9 @@ export const ResumeCard = ({
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
           <CardContent className="mt-2 text-xs sm:text-sm">
-            {description}
+            {description && (
+              <div dangerouslySetInnerHTML={{ __html: description }} />
+            )}
           </CardContent>
           <CardContent className="mt-auto  px-0">
             {tags && tags.length > 0 && (
