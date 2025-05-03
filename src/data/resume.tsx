@@ -2,6 +2,7 @@ import { Icons } from "@/components/icons";
 import countries from "../../public/countries.jpeg";
 import expenseease from "../../public/expenseease.jpeg";
 import chathub from "../../public/chathub.jpeg";
+import autobrowser from "../../public/Auto-Browser.png";
 
 export const DATA = {
   name: "Nikhil Kumar Sahu",
@@ -11,7 +12,7 @@ export const DATA = {
   locationLink: "",
   description: "Software Engineer",
   summary:
-    "I'm a software engineer at KFinTech with expertise in web development, particularly the MERN stack. I frequently compete in coding contests on different coding platforms and am now delving into open-source contributions. Let's connect and explore opportunities to collaborate on exciting projects. ",
+    "I'm a software engineer at KFinTech having 1 year of experience with expertise in web development, particularly the MERN stack. I frequently compete in coding contests on different coding platforms and am now delving into open-source contributions. Let's connect and explore opportunities to collaborate on exciting projects. ",
   avatarUrl: "/profilePic.jpg",
   skills: [
     "React.js",
@@ -47,7 +48,7 @@ export const DATA = {
         icon: Icons.linkedin,
       },
       X: {
-        url: "https://twitter.com/nikhil13sahu",
+        url: "https://x.com/SahuNikhil67",
         icon: Icons.x,
       },
     },
@@ -64,7 +65,15 @@ export const DATA = {
         "https://www.kfintech.com/wp-content/uploads/2023/11/Group-1000002745.png",
       start: "June 2024",
       end: "Present",
-      description: ` `,
+      description: `
+• Created a client-side file upload feature that allows direct uploads of large files (approx. 1GB) to an AWS S3 bucket, bypassing the server and reducing overhead.
+
+• Built a feature leveraging Athena to process large datasets (4-10 million rows), dynamically generating queries and providing downloadable zipped CSV reports, with seamless integration for AWS S3 uploads.
+
+• Designed data chunking logic, converting results into PDFs with signed URLs, optimizing both backend processing and frontend delivery for large-scale data handling and downloads.
+
+• Implemented image pre-fetching, improving load time by 30% and enhancing user experience significantly.
+`,
       technologies: ["React.js, MUI, Node.js, Express.js, PostgreSQL, AWS"],
     },
     {
@@ -104,6 +113,38 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "AutoBrowser",
+      // href: "https://chat-hub-frontend.vercel.app/",
+      // dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "Developed an AI-powered full-stack automation platform using React, Node.js, TypeScript, and Playwright, enabling users to execute complex workflows via natural language, with real-time control, intelligent element selection, and robust error tracking.",
+      technologies: [
+        "React.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "TypeScript",
+        "Playwright",
+        "Hugging Face Transformer"
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://chat-hub-frontend.vercel.app/",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source",
+          href: "https://github.com/nikhil822/Browser-Automation",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: autobrowser,
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
     {
       title: "ChatHub",
       href: "https://chat-hub-frontend.vercel.app/",
